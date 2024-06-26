@@ -1,1 +1,0 @@
-jdbc:mysql://109.71.243.44:3306/Jobs", "gen_user", "Gxg?HW,iH36f^V

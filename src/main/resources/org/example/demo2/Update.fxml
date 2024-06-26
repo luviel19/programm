@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="118.0" maxWidth="244.0" minHeight="118.0" minWidth="244.0" prefHeight="118.0" prefWidth="244.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo2.update.CheckUpdate">
+   <children>
+      <Text layoutX="13.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Доступно новое обновление!" textAlignment="CENTER" underline="true" AnchorPane.bottomAnchor="93.71875" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.4296875" AnchorPane.topAnchor="2.734375">
+         <font>
+            <Font name="Century Gothic Bold" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="okey" layoutX="82.0" layoutY="47.0" mnemonicParsing="false" text="Пропустить" />
+      <Hyperlink fx:id="link" layoutX="90.0" layoutY="81.0" text="Обновить" />
+   </children>
+</AnchorPane>
